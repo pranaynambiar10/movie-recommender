@@ -1,0 +1,62 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations (optional: only ignore if you don't want to track them)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Ignore local settings
+.env
+*.env
+
+# SQLite database (optional)
+*.sqlite3
+
+# Logs and temp files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.swp
+*.bak
+*.tmp
+
+# Media and static files (if generated)
+media/
+staticfiles/
+
+# VS Code settings
+.vscode/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Pipenv files (if using pipenv)
+Pipfile.lock
+
+# Coverage and test reports
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+# .gitignore
+artifacts/movie_pkl
+artifacts/movie_list.pkl
+artifacts/similarity.pkl
+artifacts/similarity.pkl
+artifacts/movie_list.pkl

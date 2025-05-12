@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: src
+Version: 0.0.1
+Summary: A Python-based movie recommender system
+Author: Pranay Nambiar
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+movie recommender system in python
